@@ -1,11 +1,33 @@
-## Predictive Maintenance
+# Installation
 
-Time series forecasting by Traditional Method using Random Forest.
+## Downloading the Repository
+You can download this repository by cloning it using git:
 
-### Dashboard
+```bash
+git clone https://github.com/mdevaraju99/Predictive-Maintenance-TS---ML-Forecaster-.git
+```
 
-### Dataset Uploading
+## Environment Setup
+Make sure you have Python 3.x installed. You can use virtual environments to manage dependencies.
 
-### 10 days Prediction table
+```bash
+# Create a virtual environment
+python -m venv venv
+# Activate the virtual environment
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
 
-### Graphical Representation
+## Requirements Installation
+
+Install the required packages using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Application
+After setting up your environment and installing the requirements, you can run the application:
+
+```bash
+python app.py  # Make sure to replace app.py with your main script if necessary
+```
