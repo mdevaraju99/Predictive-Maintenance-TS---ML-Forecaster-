@@ -1,32 +1,53 @@
-# Installation
+# Predictive Maintenance TS - ML Forecaster
 
-## Downloading the Repository
-You can download this repository by cloning it using git:
+## Dashboard Description
 
-```bash
-git clone https://github.com/mdevaraju99/Predictive-Maintenance-TS---ML-Forecaster-.git
-```
+... existing content ...
 
-## Environment Setup
-Make sure you have Python 3.x installed. You can use virtual environments to manage dependencies.
+## Dataset Uploading
 
-```bash
-# Create a virtual environment
-python -m venv venv
-# Activate the virtual environment
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
+... existing content ...
 
-## Requirements Installation
-Install the required packages using pip:
+## 10 Days Prediction Table
 
-```bash
-pip install -r requirements.txt
-```
+... existing content ...
+
+## Graphical Representation
+
+... existing content ...
+
+---
+
+## Installation
+To run this project, you first need to install the necessary dependencies. Below are the detailed instructions.
+
+### Environment Setup
+- Make sure you have Python installed (preferably version 3.8 or later).
+- Optionally, create a virtual environment for this project:
+  ```bash
+  python -m venv venv
+  source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+  ```
+
+### Requirements Installation
+- Install the required packages using pip:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ## Running the Application
-After setting up your environment and installing the requirements, you can run the application:
-
+To start the application, simply run:
 ```bash
-python app.py  # Make sure to replace app.py with your main script if necessary
+python app.py
 ```
+
+## Verification
+To ensure everything is working correctly, you can run the following command:
+```bash
+pytest
+```
+
+## Troubleshooting
+If you encounter any issues, please check the following:
+- Ensure all necessary dependencies are installed.
+- Check the console for any error messages for guidance.
